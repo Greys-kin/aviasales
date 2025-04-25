@@ -64,7 +64,7 @@ const TicketsList = () => {
         </Spin>
       ) : showEmptyState ? (
         <div className={styles.TicketList__empty}>
-          <Empty description="Нет билетов, соответствующих выбранным фильтрам" />
+          <Empty description="Рейсов, подходящих под заданные фильтры, не найдено" />
         </div>
       ) : (
         <>
